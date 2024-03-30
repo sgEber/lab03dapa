@@ -1,0 +1,16 @@
+﻿<Window x:Class="lab03dapa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab03dapa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Estudiantes" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="84"/>
+        <DataGrid Name="waza" Margin="196,173,228,45"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="222,107,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="1.775,0.694"/>
+        <Button Content="Reader" HorizontalAlignment="Left" Margin="504,107,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
